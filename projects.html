@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #1c1c1c;
+            color: #fff;
+        }
+        header {
+            background: #222;
+            color: #FF0000;
+            padding: 20px 40px;
+            text-align: left;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        .logo {
+            width: 200px;
+            margin-right: 15px;
+        }
+        nav {
+            margin-top: 20px;
+            text-align: center;
+            background-color: #333;
+            padding: 15px 0;
+        }
+        .navbar {
+            display: inline-block;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .navbar li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        .navbar a:hover {
+            color: #f39c12;
+            text-decoration: underline;
+        }
+        .projects {
+            background: #2980b9;
+            padding: 40px 20px;
+            color: #fff;
+            text-align: center;
+        }
+        .projects h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .projects .project-card {
+            display: inline-block;
+            width: 300px;
+            margin: 15px;
+            padding: 20px;
+            background: #34495e;
+            color: #fff;
+            border: 5px solid #f39c12;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        .projects img {
+            max-width: 100%;
+            border: 3px solid #fff;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .projects .project-card h3 {
+            margin: 10px 0;
+            font-size: 1.5rem;
+            color: #f39c12;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo" class="logo">
+        <h1>SHIVPRASAD LAHU DHUMAL</h1>
+    </header>
+    <nav>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="projects">
+        <h2>My Projects</h2>
+        <div class="project-card">
+            <h3>Project 1: AI Chatbot</h3>
+            <p>AI Chatbot Project: A conversational AI system built using NLP tools like TensorFlow or Dialogflow, with Python for backend and React for frontend, deployed on cloud platforms like AWS or Azure.</p>
+        </div>
+        <div class="project-card">
+            <h3>Project 2: Online Portfolio Website</h3>
+            <p>A responsive portfolio design ensures your portfolio website looks and works great on all devices (desktops, tablets, and smartphones). It adapts to different screen sizes using flexible layouts, media queries, and responsive elements like scalable images and fonts.</p>
+        </div>
+        <div class="project-card">
+            <h3>Project 3: Online Bookcentre (Inventory Management)</h3>
+            <p>Made an online management system for inventory using various queues, such as Circular and Double-Ended Queues, to handle stock and order operations efficiently.</p>
+        </div>
+        <div class="project-card">
+            <h3>Project 4: Agricultural Crop Prediction Model</h3>
+            <p>Developed an ML model using various datasets that predict the future crop yields based on parameters like soil conditions, weather, and temperature.</p>
+        </div>
+    </section>
+</body>
+</html>
